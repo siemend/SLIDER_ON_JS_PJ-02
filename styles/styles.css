@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  font-family: Nunito Sans, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.main-container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+}
+
+.title {
+  margin: 0;
+  font-family: Yeseva One, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.projects {
+  background: #131313;
+}
+
+.projects-container {
+  padding-top: 100px;
+  padding-bottom: 175px;
+}
+
+.projects-navigation {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 13px;
+  line-height: 19px;
+  margin-bottom: 52px;
+  margin-right: -45px;
+  padding-left: 0;
+}
+
+.projects-navigation a {
+  margin-right: 59.5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.projects-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects-content-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-title {
+  font-size: 27px;
+  line-height: 37px;
+  letter-spacing: -0.07em;
+  margin-bottom: 34px;
+  color: #e3b873;
+}
+
+.projects-subtitle {
+  font-size: 14px;
+  line-height: 27px;
+  margin-bottom: 42px;
+}
+
+.line-decorate {
+  padding-bottom: 7px;
+  padding-left: 0 !important;
+}
+
+.line-decorate:hover {
+  border-bottom: 1px solid #e3b873;
+}
+
+.description {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.description-item {
+  width: 50%;
+  padding-bottom: 34px;
+}
+
+.description-item-title {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 9px;
+  color: #e3b873;
+}
+
+.arrows {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  font-size: 25px;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+}
+
+.dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  padding-right: 17px;
+}
+
+.slider {
+  width: 600px;
+  background: url(../image/admiral.jpg);
+}
+
+.slider-element-2,
+.slider-element-3 {
+  display: none;
+}
+
+.slider-arrow-left,
+.slider-arrow-right {
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.slider-arrow-left:hover {
+  opacity: 1;
+}
+
+.slider-arrow-right:hover {
+  opacity: 1;
+}
+
+.dot {
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.dot-1 {
+  opacity: 1;
+}
+
+.dot:hover {
+  opacity: 1 !important;
+}
+
+.brown-hypertext {
+  border-bottom: 1px solid #e3b873;
+  color: #e3b873 !important;
+}
+
+a {
+  cursor: pointer;
+}
+
+.completed-project__line {
+  position: relative;
+  width: 7rem;
+  top: -4.75rem;
+  left: 0.4375rem;
+  border-color: #E3B873;
+}
